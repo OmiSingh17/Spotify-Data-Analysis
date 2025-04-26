@@ -30,22 +30,23 @@ We combine data cleaning, SQL querying, visualization, and storytelling to deliv
 ---
 
 ## Tech Stack & Tools
-- **Excel**: Data Cleaning & Transformation
+- **Excel**: Data Cleaning and Transformation
 - **MySQL**: SQL Joins, Filtering, Aggregations
 - **Power BI**: Visualization and Storytelling
 - **GitHub**: End-to-End Project Documentation
 
----
+<details>
+<summary>Project Pipeline</summary>
 
-## Project Pipeline
 ```mermaid
 flowchart LR
-    A[Raw Dataset] --> B[Data Cleaning and Preprocessing (Excel)]
-    B --> C[Exploratory Data Analysis (MySQL)]
-    C --> D[Visualization and Storytelling (Power BI)]
-    D --> E[Insights and Final Report (GitHub)]
-
+  A["Raw Dataset"] --> B["Data Cleaning and Preprocessing (Excel)"]
+  B --> C["Exploratory Data Analysis (MySQL)"]
+  C --> D["Visualization and Storytelling (Power BI)"]
+  D --> E["Insights and Final Report (GitHub)"]
 ```
+
+</details>
 
 ---
 
