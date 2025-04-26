@@ -40,10 +40,11 @@ We combine data cleaning, SQL querying, visualization, and storytelling to deliv
 ## Project Pipeline
 ```mermaid
 flowchart LR
-    A[Raw Dataset] --> B[Data Cleaning & Preprocessing (Excel)]
+    A[Raw Dataset] --> B[Data Cleaning and Preprocessing (Excel)]
     B --> C[Exploratory Data Analysis (MySQL)]
-    C --> D[Visualization & Storytelling (Power BI)]
-    D --> E[Insights & Final Report (GitHub)]
+    C --> D[Visualization and Storytelling (Power BI)]
+    D --> E[Insights and Final Report (GitHub)]
+
 ```
 
 ---
